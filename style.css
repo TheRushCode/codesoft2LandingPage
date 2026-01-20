@@ -357,3 +357,23 @@ footer {
     color: white;
     transform: rotate(15deg);
 }
+
+
+
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Background images */
+  background-image:
+    linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)),
+    url("https://images.unsplash.com/photo-1555066931-4365d14bab8c");
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
